@@ -1,0 +1,33 @@
+{
+  "name": "react-var-dump",
+  "version": "0.1.0",
+  "description": "react-var-dump",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/babel src -d dist",
+    "postinstall": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dragma/react-var-dump.git"
+  },
+  "keywords": [
+    "react",
+    "var_dump"
+  ],
+  "author": "Florent Béjina",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dragma/react-var-dump/issues"
+  },
+  "homepage": "https://github.com/dragma/react-var-dump#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1"
+  },
+  "peerDependencies": {
+    "react": ">= 13.x"
+  }
+}
